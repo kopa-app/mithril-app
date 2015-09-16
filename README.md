@@ -7,7 +7,7 @@ Composable apps for [Mithril.js](https://github.com/lhorie/mithril.js).
 Create self contained mithril apps that can be nested into each other.
 
 ## Usage
- 
+
 ```javascript
 var m = require('mithril');
 var mApp = require('mithril-app');
@@ -15,7 +15,9 @@ var mApp = require('mithril-app');
 // set mithril's routing mode
 m.route.mode = 'hash';
 
-var main = mApp();
+// pass mithril to main app,
+// to ensure its using the same mithril as you required
+var main = mApp(m);
 
 // add regular mithril components
 main.use('/', {
