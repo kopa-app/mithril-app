@@ -1,6 +1,6 @@
 {
   "name": "mithril-app",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Composable apps for Mithril.js",
   "main": "lib/mithril_app.js",
   "scripts": {
@@ -23,13 +23,11 @@
     "url": "https://github.com/kopa-app/mithril-app/issues"
   },
   "homepage": "https://github.com/kopa-app/mithril-app",
-  "dependencies": {
-    "mithril": "^0.2.0"
-  },
   "devDependencies": {
     "browserify": "^11.0.1",
     "expect.js": "^0.3.1",
     "express": "^4.13.3",
+    "mithril": "^0.2.0",
     "mocha": "^2.3.2",
     "watchify": "^3.4.0"
   }

@@ -15,9 +15,7 @@ var mApp = require('mithril-app');
 // set mithril's routing mode
 m.route.mode = 'hash';
 
-// pass mithril to main app,
-// to ensure its using the same mithril as you required
-var main = mApp(m);
+var main = mApp();
 
 // add regular mithril components
 main.use('/', {
