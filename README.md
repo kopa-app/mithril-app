@@ -7,7 +7,7 @@ Composable apps for [Mithril.js](https://github.com/lhorie/mithril.js).
 Create self contained mithril apps that can be nested into each other.
 
 ## Usage
-
+ 
 ```javascript
 var m = require('mithril');
 var mApp = require('mithril-app');
