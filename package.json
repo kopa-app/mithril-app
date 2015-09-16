@@ -1,0 +1,37 @@
+{
+  "name": "mithril-app",
+  "version": "0.0.1",
+  "description": "Composable apps for Mithril.js",
+  "main": "lib/mithril_app.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node node_modules/.bin/mocha ./lib/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kopa-app/mithril-app.git"
+  },
+  "keywords": [
+    "mithril",
+    "composable",
+    "apps",
+    "router"
+  ],
+  "author": "Ondrej Brinkel <info@kopa.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kopa-app/mithril-app/issues"
+  },
+  "homepage": "https://github.com/kopa-app/mithril-app",
+  "dependencies": {
+    "mithril": "^0.2.0"
+  },
+  "devDependencies": {
+    "browserify": "^11.0.1",
+    "expect.js": "^0.3.1",
+    "express": "^4.13.3",
+    "mocha": "^2.3.2",
+    "watchify": "^3.4.0"
+  },
+  "dependencies": {}
+}
