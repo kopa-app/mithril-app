@@ -1,6 +1,6 @@
 {
   "name": "mithril-app",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Composable apps for Mithril.js",
   "main": "lib/mithril_app.js",
   "scripts": {
