@@ -66,3 +66,16 @@ You shoud now have the following routes:
 - `/greeting` > Greetings earthlings
 - `/dashboard` > Dashboard
 - `/user/account` > My Account
+
+### Mounting multiple apps at once.
+
+It's also possible to mount multiple apps with on `use`-call
+
+```javascript
+app.use({
+ '/': homepageComponent
+ '/user': userApp
+})
+```
+
+You can use either mithril components or other apps as values.
